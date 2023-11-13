@@ -1,0 +1,192 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Navbar */
+.header-theme {
+    background-color: #354259;
+}
+
+.ant-layout-sider {
+    background-color: #354259 !important;
+}
+
+.ant-menu-root {
+    background-color: #354259 !important;
+    color: white;
+}
+
+.ant-menu {
+    background-color: #354259 !important;
+    color: white;
+}
+
+.ant-menu-sub {
+    background-color: #354259 !important;
+}
+
+.ant-menu-submenu-selected {
+    color: white;
+}
+
+.ant-menu-item-selected {
+    background-color: #A5D7E8 !important;
+    color: black !important;
+}
+
+.ant-menu-item-selected ant-menu-title-content {
+    color: black;
+}
+
+.ant-menu-title-content {
+    color: white;
+}
+
+.ant-menu-item:hover {
+    background-color: rgba(165, 215, 232, 0.38) !important;
+}
+
+/* Navbar End */
+
+
+/* Button */
+
+.btn-success {
+    /*background-color: #007849;*/
+    background-color: #B6E2A1;
+    color: black;
+}
+
+.btn-success:hover {
+    background-color: #54BAB9 !important;
+    border-color: #54BAB9 !important;
+    color: white !important;
+}
+
+.btn-add {
+    background-color: #D9ACF5;
+    color: black;
+}
+
+.btn-add:hover {
+    background-color: #c66fff !important;
+    border-color: #D9ACF5 !important;
+    color: white !important;
+}
+
+.btn-primary {
+    background-color: #B4E4FF;
+    border-color: #B4E4FF;
+}
+
+.btn-warning {
+    background-color: #FFDEB4;
+}
+
+.btn-danger {
+    background-color: #FF8787;
+}
+
+.btn-danger:hover {
+    background-color: #BB6464 !important;
+    border-color: #BB6464 !important;
+    color: white !important;
+}
+
+/* Button End */
+
+/* Table */
+
+th, td {
+    text-align: center !important;
+}
+
+/* Table End */
+
+.editable-cell {
+    position: relative;
+}
+
+.editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+}
+
+.editable-row .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+}
+
+.editable-row:hover .editable-cell-value-wrap {
+    padding: 4px 11px;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+}
+
+/*.ant-popconfirm-buttons {*/
+/*    direction: ltr;*/
+/*}*/
+
+.ant-modal {
+    min-width: 60%;
+    max-width: 90%;
+}
+
+.react-draggable {
+    min-width: 90%;
+    max-width: 40%;
+}
+
+.date-picker {
+    box-sizing: border-box;
+    width: 100%;
+    line-height: 1.5714285714285714;
+    font-size: 14px;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 4px 11px;
+}
+
+.date-picker:hover {
+    border-color: #3f84ff!important;
+}
+
+.date-picker:focus {
+    border: 1px solid #d9d9d9;
+}
